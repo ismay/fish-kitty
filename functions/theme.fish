@@ -1,6 +1,6 @@
 function theme -d "Change kitty theme" -a theme_name
     # Do nothing if there is no theme specified
-    if [ -z "$theme_name" ]
+    if test -z "$theme_name"
         return
     end
 
